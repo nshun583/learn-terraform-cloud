@@ -1,12 +1,14 @@
 terraform {
 
+  /*
   cloud {
-    organization = "organization-name"
+    organization = "nshun583_aws_test"
 
     workspaces {
       name = "learn-terraform-cloud"
     }
   }
+  */
 
   required_providers {
     aws = {
